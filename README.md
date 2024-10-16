@@ -26,6 +26,7 @@ Design and develop your own XR prototype experience
 
 Course preparation: Install latest version of Unity and necessary supporting software
 
+<br/><br/>
 *Day 1 (15.10)*
 
 The Virtual and the Real
@@ -42,6 +43,7 @@ Game Engines - For beginners with little or no game engine experience
 - Introduction to further functions - animation, sound, lighting, triggers, optimisation tools
 - Installing necessary software for VR/AR development
 
+<br/><br/>
 *Day 2 (16.10)*
 
 Topics in VR/AR
@@ -49,6 +51,7 @@ Topics in VR/AR
 - Overview of VR/AR design criteria - what are the important criteria to keep in mind when designing for VR? How do design criteria change with audience? How does VR challenge design criteria for other media?
 - Outline a technical workflow for the creation of VR experiences
 
+<br/><br/>
 *Day 3 (17.10)*
 
 Project/Prototype first steps
@@ -57,12 +60,14 @@ Project/Prototype first steps
 - Design/Storyboard/Wireframe VR or AR experience
 - Develop a VR or AR Prototype using Unity Game Engine (prompt will be given). Prototypes must fulfill a number of criteria in terms of content and interactions (to be defined).
 
+<br/><br/>
 *Day 4 (21.11)*
 
 Project Clinic
 
 We will meet here for a morning to cover any special topics/answer any specific questions you might have (if you would like to cover a specific Unity- or XR-themed topic, let me know a few weeks in advance and I can prepare something)
 
+<br/><br/>
 *Day 5 (21.01)*
 
 Project work
