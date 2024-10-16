@@ -22,6 +22,11 @@ Design and develop your own XR prototype experience
 - Personal projects
 
 <br/><br/>
+**Method of Instruction**
+
+For those who are interested, here is a list of readings/examples etc. that will be added to over time: https://www.are.na/alex-walmsley/virtuality-gczseswa4x8
+
+<br/><br/>
 **Topics**
 
 Course preparation: Install latest version of Unity and necessary supporting software
