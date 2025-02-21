@@ -80,8 +80,8 @@ Through the ARKit framework
 
 [![Watch the Walkthrough](./img/welcome.jpg)](https://drive.google.com/file/d/1caxQWnDUUghq9iJidQmvFe6GefE_BUDV/view?usp=sharing)
 
-> click to play video in new window
+> right-click to play video in new window
 
 ### Build
 
-[<img src="https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png" alt="logo" width="20" align="center"/>&nbsp;&nbsp;&nbsp;Download from Google Drive](link/pending)
+<img src="https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png" alt="logo" width="20" align="center"/>&nbsp;&nbsp;<a href="https://drive.google.com/drive/folders/1iuXC0_iFHkLqciwXISivNFgdvrL8thHP?usp=sharing">Visit W3Schools</a>
