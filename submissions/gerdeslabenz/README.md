@@ -1,52 +1,87 @@
 # Towar
 
-## Projektübersicht
+by Gorm Labenz & Philip Gerdes
 
-TOWAR verwandelt selbstgebaute Festungen in lebendige Verteidigungsanlagen: Ob Sandburg am Strand, Kissenfort im Wohnzimmer oder Kartenburg auf dem Tisch – mit AR-Technologie wird jede Konstruktion zum interaktiven Spielfeld. In dieser Verschmelzung von echter und digitaler Welt verstecken Spieler einen virtuellen Schatz in ihrer selbstgebauten Festung und verteidigen ihn gegen anrückende Gegner. Mit dem Smartphone als Bogen bewaffnet, gilt es die eigene Kreation zu beschützen und die Angreifer in die Flucht zu schlagen.
+> In Towar, a physically built fortress serves as the playing ground for a virtual defense battle. Whether it's a sandcastle on the beach, a pillow fort in the living room or a house of cards on the table, any real environment can serve as terrain. Players hide a virtual treasure in their self-built structure and defend it against advancing threats. Armed with their smartphone as a bow, the aim is to hit all enemies before they can reach their bounty.
 
-## Spielmechanik
+![](./img/welcome.jpg)
 
-### Grundkonzept
+## Game Mechanics
 
-- Spieler errichten eine physische Verteidigungsanlage (z.B. eine Sandburg) in der realen Welt
-- Ein virtueller Schatz wird innerhalb der Verteidigungsanlage platziert
-- Virtuelle Gegner versuchen den Schatz zu erobern
-- Der Spieler verteidigt den Schatz mit AR-Bogenschießen
+### Concept
 
-### Verteidigungssystem
+- Players build a _physical_ structure to defend
+- _Virtual_ treasure is placed onto the tower
+- _Virtual_ opponents try to capture the treasure
+- The player defends the treasure with AR controlled archery
 
-- Das Smartphone fungiert als virtueller Bogen
-- Spieler können Pfeile aus der Kameraperspektive abfeuern
-- Gegner werden nach drei Treffern eliminiert
+Primarily this concept engages with the idea of intertwining the physical and the virtual in an interactive way. Bridging the gap between both allows for a more immersive experience while moving past a simple scene tracking approach. The physical built process, being a part of the game-play, involves players more into the scene, while making the stakes more emotionally tangible.
 
-### Spielziele
+### Defense System
 
-- **Sieg**: Eliminierung aller Angreifer vor Verlust des Schatzes
-- **Niederlage**: Ein Angreifer erreicht den Schatz
+The smartphone acts as a virtual bow
 
-## Technische Implementierung
+- Players can fire arrows in the direction of sight through the camera
+- Enemies are eliminated after three hits
 
-### AR-Scanning
+### Game Objectives
 
-- Nutzung des ARKit-Frameworks für Umgebungserfassung
-- Erstellung eines navigierbaren Mesh der Spielumgebung
-- Integration physischer Strukturen in die Spielmechanik
+- **Victory**: Eliminate all attackers before losing the treasure
+- **Defeat**: One attacker reaches the treasure
 
-### Gegner-KI
+## Technical Implementation
 
-- Dynamische Wegfindung über das gescannte Mesh
-- Zielgerichtete Bewegung zum Schatz
-- Definierter Auslöseradius für Spielende
+### AR Scanning
 
-## Spielablauf
+Through the ARKit framework
 
-1. **Vorbereitungsphase**
-   - Umgebungsscanning durch den Spieler
-   - Platzierung des virtuellen Schatzes
-2. **Spielphase**
-   - Spawn der Gegner in definiertem Abstand zum Schatz
-   - Bewegung der Gegner über das Mesh
-   - Aktive Verteidigung durch den Spieler
-3. **Spielende**
-   - Siegbedingung: Elimination aller Gegner
-   - Verlustbedingung: Schatz wird erreicht
+- [x] Lidar for a more detailed and quicker environment mesh estimation (iOS build only on supported devices)
+- [x] Live tracking of the AR Session
+
+### Enemy AI
+
+- [x] Spawn on outer radius around the placed treasure
+- [x] Targeted movement to the treasure
+- [x] trigger radius around treasure for loss of game
+
+### Bow and Arrow Mechanic
+
+- [x] Projectile is fired in direction of sight
+
+### User Interface
+
+- [x] Initialization Walkthrough
+- [x] Outcome and Restart
+- [ ] Crosshair for aiming
+
+## Game Sequence
+
+1. **Preparation Phase**
+   ![placeholder](./img/testground-01.png)
+
+   - Scanning of the environment by the player
+   - Placement of the virtual treasure
+
+2. **Defense Phase**
+   ![placeholder](./img/testground-02.png)
+
+   - Enemies spawn at a defined distance from the treasure
+   - Movement of the enemies across the mesh
+   - Active defense by the player
+
+3. **Outcome**
+   ![placeholder](./img/testground-03.png)
+   - Victory condition: Elimination of all opponents
+   - Loss condition: treasure is reached
+
+## Deliverables
+
+### Walkthrough
+
+[![Watch the Walkthrough](./img/welcome.jpg)](https://drive.google.com/file/d/1caxQWnDUUghq9iJidQmvFe6GefE_BUDV/view?usp=sharing)
+
+> click to play video in new window
+
+### Build
+
+[<img src="https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png" alt="logo" width="20" align="center"/>&nbsp;&nbsp;&nbsp;Download from Google Drive](link/pending)
