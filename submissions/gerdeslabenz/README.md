@@ -84,4 +84,4 @@ Through the ARKit framework
 
 ### Build
 
-<img src="https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png" alt="logo" width="20" align="center"/>&nbsp;&nbsp;<a href="https://drive.google.com/drive/folders/1iuXC0_iFHkLqciwXISivNFgdvrL8thHP?usp=sharing">Visit W3Schools</a>
+[Download from Google Drive](https://drive.google.com/drive/folders/1iuXC0_iFHkLqciwXISivNFgdvrL8thHP?usp=sharing)
