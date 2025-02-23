@@ -84,4 +84,4 @@ Through the ARKit framework
 
 ### Build
 
-[Download from Google Drive](https://drive.google.com/drive/folders/1iuXC0_iFHkLqciwXISivNFgdvrL8thHP?usp=sharing)
+[Download from Google Drive](https://drive.google.com/file/d/1XgSymJDPc3oIBiXbe0GSjxy24rY31WV9/view?usp=drive_link)
