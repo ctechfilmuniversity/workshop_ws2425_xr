@@ -52,25 +52,25 @@ Through the ARKit framework
 
 - [x] Initialization Walkthrough
 - [x] Outcome and Restart
-- [ ] Crosshair for aiming
 
 ## Game Sequence
 
 1. **Preparation Phase**
-   ![placeholder](./img/testground-01.png)
 
    - Scanning of the environment by the player
+     ![scan phase](./img/02-scan.jpg)
    - Placement of the virtual treasure
+     ![hide prompt](./img/02-hide-info.jpg)
 
 2. **Defense Phase**
-   ![placeholder](./img/testground-02.png)
+   ![gameplay](./img/04-gameplay.jpg)
 
    - Enemies spawn at a defined distance from the treasure
    - Movement of the enemies across the mesh
    - Active defense by the player
 
 3. **Outcome**
-   ![placeholder](./img/testground-03.png)
+   ![game end screen](./img/05-gameover.jpg)
    - Victory condition: Elimination of all opponents
    - Loss condition: treasure is reached
 
@@ -78,7 +78,7 @@ Through the ARKit framework
 
 ### Walkthrough
 
-[![Watch the Walkthrough](./img/welcome.jpg)](https://drive.google.com/file/d/1caxQWnDUUghq9iJidQmvFe6GefE_BUDV/view?usp=sharing)
+[![Watch the Walkthrough](./img/video-icon.jpg)](https://drive.google.com/file/d/1NnotsaxZaAQvoQhos2t1_3ZIpqhzOage/view?usp=drive_link)
 
 > right-click to play video in new window
 
